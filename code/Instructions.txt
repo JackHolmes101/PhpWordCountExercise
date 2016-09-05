@@ -1,0 +1,16 @@
+You will need to be able to access files via a web browser to start using the word count script.
+Firstly, unpack the zip folder into a directory accessible from a web browser.
+Open "index.php" in a text editor and specify the path to the text file.
+Once a file has been specified, point a web browser to the "index.php" file. 
+
+Assumptions
+
+the following are considered singular words:
+	- Dates formatted as dd/mm/yyyy.
+	- Dates formatted as yyyy/mm/dd.
+	- &.
+	- Hyphenated words.
+
+the following aren't considered words:
+	- numbers
+	- Ordinal numbers e.g. 1st, 2nd, 3rd.
